@@ -8,7 +8,7 @@ Simples app Python/Flask para listagem dos sistemas disponíveis e redirecioname
 git clone git@github.com:luizpicolo/catalogo-sigoe.git
 cd catalogo-sigoe
 pip install -r requirements.txt
-python -m flask main.rb
+python -m flask main.py
 ```
 
 O App estará disponível em [localhost:5000](http://localhost:5000/)
