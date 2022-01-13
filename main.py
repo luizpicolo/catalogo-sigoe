@@ -14,6 +14,8 @@ paths = [
   ['/sigoe.cb', 'Corumbá',        '2690'],
   ['/sigoe.dr', 'Dourados',       '2689'],
   ['/sigoe.cx', 'Coxim',          '2688'],
+  ['/sigoe.cg', 'Campo Grande',   '8888'],
+  ['/sigoe.jd', 'Jardim',         '8888'],
 ]
 
 @app.route('/')
