@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      STATIC_URL: /static
+      STATIC_PATH: /app/static
+      FLASK_APP: main.py
+      FLASK_ENV: development
+    ports:
+      - 5000:5000
+    command: flask run --host=0.0.0.0
