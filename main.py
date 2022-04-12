@@ -6,16 +6,16 @@ app = Flask(__name__, template_folder='views')
 base_url = 'http://sistemas.na.ifms.edu.br'
 
 paths = [
-  ['/sigoe.na', 'Nova Andradina', '2697'],
-  ['/sigoe.nv', 'Naviraí',        '2696'],
-  ['/sigoe.pp', 'Ponta Porã',     '2693'],
-  ['/sigoe.tl', 'Três Lagoas',    '2692'],
-  ['/sigoe.aq', 'Aquidauana',     '2691'],
-  ['/sigoe.cb', 'Corumbá',        '2690'],
-  ['/sigoe.dr', 'Dourados',       '2689'],
-  ['/sigoe.cx', 'Coxim',          '2688'],
-  ['/sigoe.cg', 'Campo Grande',   '8888'],
-  ['/sigoe.jd', 'Jardim',         '8888'],
+  ['/sigoe', 'Nova Andradina', '2697'],
+  ['/sigoe', 'Naviraí',        '2696'],
+  ['/sigoe', 'Ponta Porã',     '2693'],
+  ['/sigoe', 'Três Lagoas',    '2692'],
+  ['/sigoe', 'Aquidauana',     '2691'],
+  ['/sigoe', 'Corumbá',        '2690'],
+  ['/sigoe', 'Dourados',       '2689'],
+  ['/sigoe', 'Coxim',          '2688'],
+  ['/sigoe', 'Campo Grande',   '8888'],
+  ['/sigoe', 'Jardim',         '8888'],
 ]
 
 @app.route('/')
