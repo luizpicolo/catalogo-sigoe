@@ -10,5 +10,5 @@ services:
       FLASK_APP: main.py
       FLASK_ENV: development
     ports:
-      - 5000:5000
+      - 80:5000
     command: flask run --host=0.0.0.0
